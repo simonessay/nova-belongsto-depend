@@ -169,10 +169,18 @@ export default {
 }
 
 .multiselect__tags {
-    min-height: 36px !important;
+    min-height: 40px !important;
     border: 1px solid var(--60) !important;
     color: var(--80);
     border-radius: 0.5rem !important;
+}
+
+.multiselect__placeholder,
+.multiselect__single {
+    margin-bottom: 10px;
+    padding-top: 2px;
+    font-size: 16px;
+    padding-left: 5px;
 }
 
 .multiselect__select {
